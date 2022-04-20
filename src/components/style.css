@@ -1,0 +1,648 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mainContainer {
+  margin-right: -15px !important;
+  margin-left: -15px !important; 
+}
+
+.informationContainer {
+  background-color: white;
+  margin-right: auto;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.summaryContainer {
+  background-color: #f7f8fc;
+  margin-top: 30px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  padding: 20px;
+  float: left;
+    width: 100%;
+}
+
+.summaryRowContainer {
+  width: 100%;
+  margin-right: 0px !important;
+  margin-left: 15px !important;
+  margin-top: 10px !important;
+}
+
+.partsContainer {
+  width: 100%;
+}
+
+.windowContainer {
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+}
+
+.buttonsContainer {
+  width: 100% !important;
+  /* margin-right: 0px !important; */
+  margin-left: 0px !important;
+  margin-top: 10px !important;
+  /* margin-left: 15px !important; */
+}
+
+.textContainer {
+  width: 100% !important;
+  margin-right: auto !important;
+  margin-top: 10px !important;
+  margin-left: auto !important
+}
+
+.singleButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10;
+}
+
+.buttonStyle {
+  background-color: #1a2651;
+  color: #1a2651;
+}
+
+.emailFormContainer {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0.25) !important;
+  border-bottom: 1px solid #1a2651 !important;
+}
+
+.form-control {
+  padding-left: 0px !important;
+}
+
+.btn-outline-primary:hover  {
+  background-color: white !important;
+}
+
+.btn-outline-primary.focus, .btn-outline-primary:focus, .btn.focus, .btn:focus{
+  box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0.5) !important;
+}
+
+.emailFieldContainer {
+  width: 100%;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  margin-top: 10px !important;
+  margin-left: 0px !important;
+}
+
+.fillButton {
+  background-color: #052355  ;
+  border-color: #052355  !important;
+  color: white !important;
+}
+
+.borderButton {
+  border-color: #052355  !important;
+  color: #052355  !important;
+}
+
+.inputFieldContainer {
+  border-top-width: 0px !important;
+  border-right-width: 0px !important;
+  border-left-width: 0px !important;
+  border-bottom-color: #ccd4da !important;
+  border-radius: 0px !important;
+}
+
+.flexEndButton {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.palceOrderButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  
+}
+
+.shippingMethodContainerFill {
+  border-radius: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #052355 !important;
+  border-width: 1px;
+  border-color: #e3e3e3;
+  border-style: solid;
+  width: calc(25% - 15px) !important;
+  flex: none !important;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.shippingMethodContainerBorder {
+  border-radius: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #f7f8fc!important;
+  border-width: 2px;
+  border-color: #e2e5f4;
+  border-style: solid;
+  width: calc(25% - 15px) !important;
+  flex: none !important;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.shippingMethodFontBlack {
+  margin-bottom: 0;
+  color: black;
+}
+
+.shippingMethodFontWhite {
+  margin-bottom: 0;
+  color: white;
+}
+
+input:-webkit-autofill:focus,
+input:-webkit-autofill{
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+input:disabled 
+{
+    -webkit-box-shadow: 0 0 50px 30px #e3e3e3 inset !important;
+    opacity: 0.65 !important;
+}
+
+.css-yk16xz-control, .css-1pahdxg-control{
+  border: none !important;
+  border-bottom: solid 1px #ced6db !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  outline: none !important; 
+  margin-top: 10px;
+}
+
+#AmazonPayButton{
+  height: 30px
+}
+
+
+.btn{
+  border-radius: 0px !important;
+}
+
+.redbtn{
+  background-color: #db3740 !important;
+  border-color: #db3740 !important;
+}
+
+.AddressIcon{text-align: center;
+    background: #f7f8fc;
+    border:solid 1px #e2e5f4;
+    color: #052355;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.radioCustm:checked + label .AddressIcon{
+  background: #052355;
+  color: white;
+}
+
+
+.radioCustm:checked + label .AddressIcon .addresDelete{
+  color: #fff  !important;
+}
+.radioCustm:checked + label .AddressIcon .addresEdit{
+  color: #fff  !important;
+}
+
+input#multiAddress {
+  opacity: 0;
+  visibility: hidden;
+  margin: 0px 0 0 0;
+  height: 0px;
+}
+
+.addresDelete{
+  color: #686f90  !important;
+    cursor: pointer;
+    font-size: 14px;
+    position: absolute;
+    top: 28px;
+    left: 24px;
+}
+.addresEdit{
+  color: #686f90  !important;
+    cursor: pointer;
+    font-size: 14px;
+    position: absolute;
+    top:6px ;
+    left: 24px;
+}
+
+
+.summeryTxt {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.summeryTxt .col-3{
+  font-weight: 600;
+}
+
+.itemCount{
+  font-size: 14px;
+  display: inline-block;
+  margin: 5px 0 0 0;
+  font-weight: 400;
+  
+}
+
+.summaryContainer h5 {
+  font-size: 17px;
+}
+
+.css-g1d714-ValueContainer {
+  padding-left: 0 !important;
+}
+
+.css-1okebmr-indicatorSeparator{
+  display: none;
+}
+
+.secureBorder{
+  border-left: solid 1px white;
+}
+
+.summeryTxt .col-4{
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+.sb_help_panel{
+  padding: 0 10px;
+  margin-top: 30px;
+  float: left;
+  width: 100%;
+}
+
+.sb_help_panel h3 {
+  margin: 0;
+  padding: 0 0;
+  font-weight: 600;
+  font-size: 19px;
+  margin-bottom: 4px;
+  color: #000;
+}
+
+.sb_help_panel p {
+  font-size: 14px;
+  margin: 0px 5px 0 0px;
+  float: left;
+  width: 100%;
+}
+
+.sb_help_panel p a {
+  color: #000;
+}
+
+.seals{
+  width: 100%;
+  float: left;
+}
+.seals img{
+  width: 100%;
+  height: auto;
+
+}
+
+.edit-cart{
+  display: block;
+    text-align: center;
+    border: solid 1px #1a2651;
+    margin-top: 12px;
+    color: #052355;
+    padding: 3px 0;
+}
+
+.edit-cart:hover{
+    color: #052355;
+    text-decoration: none;
+ 
+}
+
+
+.checkout_footer {
+  margin-top: 50px;
+  border-top: 1px dotted #ccc;
+  padding: 15px 0;
+  
+}
+
+.footer_nav {
+  float: left;
+}
+
+.footer_nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer_nav ul li {
+  margin: 0 7px 0 0;
+  padding: 0;
+  display: block;
+  floaT: left;
+}
+
+.footer_nav ul li a {
+  color: #000;
+  
+}
+
+.footer_rights {
+  float: right;
+}
+
+
+
+
+@media (min-width:320px) and (max-width:575px){
+.redbtn {
+  width: 100%;
+}
+
+.secureBorder{
+  border-left: none;
+}
+
+}
+
+
+
+
+@media (min-width:320px) and (max-width:767px){
+  .mainContainer {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+
+.shippingMethodContainerFill, .shippingMethodContainerBorder{
+  width: 100% !important;
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.methodLeft {
+  float: left;
+  width: 50%;
+  border-right: solid 1px #fff;
+}
+
+.shippingMethodContainerBorder .methodLeft {
+  float: left;
+  width: 50%;
+  border-right:solid 1px #b0bdd4;
+}
+
+.methodRight {
+  float: left;
+  width: 50%;
+  padding: 0 5px;
+}
+
+.horizentlBorder{
+  margin-bottom: 0 !important;
+  border-bottom: none !important;
+  padding-bottom: 0px !important;
+}
+
+.dIB {
+  display: inline-block;
+  width: auto !important;
+  margin: 0 4px;
+}
+
+.textContainer h5, .informationContainer h5 {
+  font-size: 18px;
+}
+
+.footer_nav {
+  width: 100%;
+  text-align: center;
+}
+
+.footer_rights {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin: 8px 0 0 0;
+}
+
+.footer_nav ul {
+display: inline-block;
+}
+
+.footer_nav ul li {
+  floaT: none;
+  display: inline-block;
+}
+
+
+.palceOrderButtonContainer{
+  position: fixed;
+  left: 15px;
+    bottom: -21px;
+    width: 100%;
+    z-index: 999;
+    background: #fff;
+    padding: 12px 0;
+    -webkit-box-shadow: 0px -2px 11px 0px rgb(48 50 50 / 34%);
+    -moz-box-shadow: 0px -2x 11px 0px rgba(48, 50, 50, 0.34);
+    box-shadow: 0px -2px 20px 4px rgb(50 51 51 / 33%);
+}
+
+.checkout_footer {
+  margin-bottom: 50px;
+ 
+  
+}
+
+}
+
+
+@media (min-width:768px) and (max-width:991px){
+
+  .summaryContainer h5 {
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .grandTotal{
+    font-size: 13px;
+  }
+
+  .itemCount {
+    margin: 3px 0 0 0;
+  }
+
+  .shippingMethodContainerFill, .shippingMethodContainerBorder{
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+
+  .methodLeft {
+    float: left;
+    width: 50%;
+    border-right: solid 1px #fff;
+ }
+
+  .shippingMethodContainerBorder .methodLeft {
+    float: left;
+    width: 50%;
+    border-right:solid 1px #b0bdd4;
+  }
+
+  .methodRight {
+    float: left;
+    width: 50%;
+  }
+
+  .horizentlBorder{
+    margin-bottom: 0 !important;
+    border-bottom: none !important;
+    padding-bottom: 0px !important;
+  }
+
+  .dIB {
+    display: inline-block;
+    width: auto !important;
+    margin: 0 4px;
+  }
+
+  .textContainer h5, .informationContainer h5{
+    font-size: 18px;
+}
+
+.footer_nav {
+  width: 100%;
+  text-align: center;
+}
+
+.footer_rights {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin: 8px 0 0 0;
+}
+
+.footer_nav ul {
+display: inline-block;
+}
+
+.footer_nav ul li {
+  floaT: none;
+  display: inline-block;
+}
+
+}
+
+
+@media (min-width:992px) and (max-width:1199px){
+
+  .summaryContainer h5 {
+    font-size: 16px;
+    display: flex;
+  }
+
+  .grandTotal{
+    font-size: 14px;
+  }
+
+  .itemCount {
+
+    margin: 3px 0 0 0;
+  }
+
+  .footer_nav {
+    width: 100%;
+    text-align: center;
+}
+
+.footer_rights {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 8px 0 0 0;
+}
+
+.footer_nav ul {
+  display: inline-block;
+}
+
+}
+
+
+

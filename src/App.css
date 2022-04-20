@@ -1,0 +1,193 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mainContainer {
+  margin-right: 40px !important;
+  margin-left: 40px !important;
+}
+
+.informationContainer{
+  background-color: white;
+  margin-right: 10px;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.summaryContainer{
+  background-color: white;
+  margin-top: 30px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.summaryRowContainer{
+  width: 100%;
+  margin-right: 0px !important;
+  margin-left: 15px !important;
+  margin-top: 10px !important
+}
+
+.partsContainer{
+  width: 100%;
+}
+
+.windowContainer{
+  width: 100%;
+  background-color: #e3e3e3;
+}
+
+.buttonsContainer{
+  width: 100%;
+  margin-right: 0px !important;
+  margin-top: 10px !important;
+  margin-left: 15px !important;
+}
+
+.singleButtonContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10;
+}
+
+.textContainer{
+  width: 100% !important;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  margin-top: 10px !important;
+  margin-left: 30px !important;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0rem rgba(0,123,255,.25) !important;
+}
+
+.buttonStyle{
+  background-color: #1a2651;
+  color: #1a2651;
+}
+
+.emailFormContainer{
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.fillButton{
+  background-color: #1a2651 !important;
+  border-color:#1a2651 !important;
+  color: white !important
+}
+
+.borderButton{
+  border-color: #1a2651 !important;
+  color: #1a2651 !important;
+}
+
+.inputFieldContainer{
+  border-top-width: 0px !important;
+  border-right-width: 0px !important;
+  border-left-width: 0px !important;
+  border-bottom-color: #ccd4da !important;
+}
+
+.flexEndButton{
+  justify-content: flex-end;
+  display: flex;
+}
+
+.palceOrderButtonContainer{
+  display:flex;
+  justify-content:center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.shippingMethodContainerFill{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #1a2651 !important;
+  border-width: 1px;
+  border-color: #e3e3e3;
+  border-style: solid;
+  width: 300px !important;
+  flex: 0.2 !important;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.shippingMethodContainerBorder{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #e3e3e3 !important;
+  border-width: 1px;
+  border-color: #e3e3e3;
+  border-style: solid;
+  width: 300px !important;
+  flex: 0.2 !important;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.shippingMethodFontBlack{
+  margin-bottom: 0;
+  color: black;
+}
+
+.shippingMethodFontWhite{
+  margin-bottom: 0;
+  color: white;
+}
+
+.form-control.is-valid, .was-validated .form-control:valid{
+  background-image: none !important
+}
+
+.alertCustm {
+  position: relative;
+  padding: 2rem 2.25rem !important;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 8px !important;
+  min-width: 470px !important;
+  max-width: 470px !important;
+  background-color: #f7f7f7 !important;
+}

@@ -1,0 +1,12 @@
+Store ID:
+amzn1.application-oa2-client.0284309fb0344a8abd0f2f903f091b04
+
+Public Key ID:
+SANDBOX-AFGKMIPFXQBNP4LYYTVSB57G
+
+Merchant ID:
+A2I8597VRO3WO5
+
+Store Name:
+Rizno Inc DBA Pulseuniform
+
