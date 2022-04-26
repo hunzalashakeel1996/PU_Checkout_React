@@ -6,7 +6,7 @@ const header = {
     "Content-Type": "application/json",
     Accept: "application/json",
 }
-
+//test
 export const apiFetch = (apiUrl, apiMethod, apiHeader, apiBody) => {
     
         return new Promise((resolve, reject) => {
